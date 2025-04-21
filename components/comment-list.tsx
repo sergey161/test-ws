@@ -21,8 +21,6 @@ const CommentCard = styled(Card)`
 const CommentTitle = styled(CardTitle)`
     font-size: 1rem;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 `;
 
 const CommentBody = styled.p`
