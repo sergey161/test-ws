@@ -20,31 +20,31 @@
 
 ## Структура проекта
 
-\`\`\`
-├── app/ # Директория приложения Next.js
-│ ├── [id]/ # Динамический маршрут для страницы пользователя
-│ ├── globals.css # Глобальные стили
-│ ├── layout.tsx # Корневой макет приложения
-│ └── page.tsx # Главная страница
-├── components/ # Компоненты React
-│ ├── comment-list.tsx # Компонент списка комментариев
-│ ├── error-message.tsx # Компонент сообщения об ошибке
-│ ├── loading-spinner.tsx # Компонент индикатора загрузки
-│ ├── pagination.tsx # Компонент пагинации
-│ ├── sort-button.tsx # Компонент кнопки сортировки
-│ ├── user-card.tsx # Компонент карточки пользователя
-│ └── user-details.tsx # Компонент детальной информации о пользователе
-├── redux/ # Директория Redux
-│ ├── features/ # Слайсы Redux
-│ │ ├── commentSlice.ts # Слайс для комментариев
-│ │ └── userSlice.ts # Слайс для пользователей
-│ ├── provider.tsx # Провайдер Redux
-│ └── store.ts # Хранилище Redux
-├── types/ # Типы TypeScript
-│ └── index.ts # Определения типов
-├── tailwind.config.ts # Конфигурация Tailwind CSS
-└── README.md # Документация проекта
-\`\`\`
+```
+├── app/                    # Директория приложения Next.js
+│   ├── [id]/              # Динамический маршрут для страницы пользователя
+│   ├── globals.css        # Глобальные стили
+│   ├── layout.tsx         # Корневой макет приложения
+│   └── page.tsx           # Главная страница
+├── components/            # Компоненты React
+│   ├── comment-list.tsx   # Компонент списка комментариев
+│   ├── error-message.tsx  # Компонент сообщения об ошибке
+│   ├── loading-spinner.tsx # Компонент индикатора загрузки
+│   ├── pagination.tsx     # Компонент пагинации
+│   ├── sort-button.tsx    # Компонент кнопки сортировки
+│   ├── user-card.tsx      # Компонент карточки пользователя
+│   └── user-details.tsx   # Компонент детальной информации о пользователе
+├── redux/                 # Директория Redux
+│   ├── features/          # Слайсы Redux
+│   │   ├── commentSlice.ts # Слайс для комментариев
+│   │   └── userSlice.ts   # Слайс для пользователей
+│   ├── provider.tsx       # Провайдер Redux
+│   └── store.ts           # Хранилище Redux
+├── types/                 # Типы TypeScript
+│   └── index.ts           # Определения типов
+├── tailwind.config.ts     # Конфигурация Tailwind CSS
+└── README.md              # Документация проекта
+```
 
 ## Запуск проекта локально
 
@@ -56,33 +56,35 @@
 ### Установка
 
 1. Установите зависимости:
-   \`\`\`bash
-   npm install
-   \`\`\`
+
+    ```bash
+    npm install
+    ```
 
 2. Запустите проект в режиме разработки:
-   \`\`\`bash
-   npm run dev
-   \`\`\`
+
+    ```bash
+    npm run dev
+    ```
 
 3. Откройте [http://localhost:3000](http://localhost:3000) в вашем браузере.
 
 ## Сборка для продакшена
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ## Запуск тестов
 
-\`\`\`bash
+```bash
 npm run test
-\`\`\`
+```
 
 ## Docker
 
 ### Запуск Docker-контейнера
 
-\`\`\`bash
+```bash
 ./build-and-run.sh
-\`\`\`
+```
